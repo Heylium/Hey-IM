@@ -17,4 +17,11 @@
         <module>file-service-55</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.wechat.dev</groupId>
+            <artifactId>wechat-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
