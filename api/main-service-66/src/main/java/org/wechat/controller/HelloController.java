@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("hello")
     public Object hello() {
-        return "Hello World from 88";
+        return "Hello World from 66";
     }
 }

@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>file-service-55</artifactId>
+    <artifactId>main-service-66</artifactId>
 
     <dependencies>
         <dependency>

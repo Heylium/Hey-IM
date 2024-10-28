@@ -1,0 +1,15 @@
+server:
+  port: 55
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:18848
+        username: nacos
+        password: nacos
+
+#日志级别
+logging:
+  level:
+    root: info

@@ -32,7 +32,7 @@
     -->
     <dependencyManagement>
         <dependencies>
-            <!-- add microservices SpringCloud -->
+            <!-- 引入微服务 SpringCloud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -41,7 +41,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- add microservice SpringCloud Alibaba -->
+            <!-- 引入微服务组件 SpringCloud Alibaba -->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
