@@ -59,6 +59,11 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
+        <!--负载均衡器-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
 
         <!-- lombok 插件工具 -->
         <dependency>

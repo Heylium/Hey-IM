@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("hello")
+@RequestMapping("f")
 public class HelloController {
 
     @GetMapping("hello")
     public Object hello() {
-        return "Hello World from 55";
+        return "Hello World from file-service-55";
     }
 }
