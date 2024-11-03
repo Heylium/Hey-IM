@@ -2,6 +2,12 @@ server:
   port: 1000
 
 spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 5379
+      database: 0
+      password: imooc
   cloud:
     nacos:
       discovery:
